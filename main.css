@@ -674,35 +674,42 @@ body {
           flex-direction: column; }
         .contact-data .data-frame .data-col .data-row .data-desc {
           font-family: "Roboto Slab", serif;
-          color: #fff;
           font-size: 1.6rem;
           display: flex;
           flex-wrap: wrap; }
           .contact-data .data-frame .data-col .data-row .data-desc .data-span {
             line-height: 2.3rem;
             position: relative;
-            bottom: 0.5rem; }
+            bottom: 0.5rem;
+            color: #fff; }
+            .contact-data .data-frame .data-col .data-row .data-desc .data-span:hover {
+              color: #79c674;
+              cursor: pointer; }
             .contact-data .data-frame .data-col .data-row .data-desc .data-span .hash {
-              font-weight: bold; }
+              font-weight: bold;
+              color: #fff; }
         .contact-data .data-frame .data-col .data-row .data-adres {
           font-family: "Roboto Slab", serif;
           color: #fff;
           font-size: 1.6rem;
           margin-bottom: 0.8rem; }
-      .contact-data .data-frame .data-col .cent {
+      .contact-data .data-frame .data-col .cent-l {
+        color: white;
         display: flex;
         align-items: center;
         margin-bottom: 2rem; }
+      .contact-data .data-frame .data-col .cent {
+        display: flex;
+        align-items: center;
+        margin-bottom: 2rem;
+        color: #fff; }
+        .contact-data .data-frame .data-col .cent:hover {
+          cursor: pointer;
+          color: #79c674; }
       .contact-data .data-frame .data-col .d-mid {
         margin: 0 2rem; }
     .contact-data .data-frame .d-left {
       margin-right: 1.6rem; }
-
-.on-hover .hover-green {
-  color: #fff; }
-.on-hover:hover .hover-green {
-  cursor: pointer;
-  color: #79c674; }
 
 .main-footer {
   width: 140rem;

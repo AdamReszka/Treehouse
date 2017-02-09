@@ -696,7 +696,6 @@ body {
 				}
 				.data-desc {
 					font-family: $robo;
-					color: #fff;
 					font-size: 1.6rem;
 					display: flex;
 					flex-wrap: wrap;
@@ -704,11 +703,18 @@ body {
 						line-height: 2.3rem;
 						position: relative;
 						bottom: 0.5rem;
+						color: #fff;
+						&:hover {
+							color: $green;
+							cursor: pointer;
+						}
 						.hash {
 							font-weight: bold;
+							color: #fff;
 						}
 					}
 				}
+
 				.data-adres {
 					font-family: $robo;
 					color: #fff;
@@ -716,10 +722,21 @@ body {
 					margin-bottom: 0.8rem;
 				}
 			}
+			.cent-l {
+				color: white;
+				display: flex;
+				align-items: center;
+				margin-bottom: 2rem;
+			}
 			.cent {
 				display: flex;
 				align-items: center;
 				margin-bottom: 2rem;
+				color: #fff;
+				&:hover {
+					cursor: pointer;
+					color: $green;
+				}
 			}
 			.d-mid {
 				margin: 0 2rem;
@@ -730,17 +747,7 @@ body {
 		}
 	}
 }
-.on-hover {
-	.hover-green {
-		color: #fff;
-	}
-	&:hover {
-		.hover-green {
-		cursor: pointer;
-		color: $green;
-		}
-	}
-}
+
 .main-footer {
 	width: $cont;
 	height: 10.1rem;
@@ -750,3 +757,8 @@ body {
 .d-right {
 	margin-left: 3rem;
 }
+
+// .data-row.cent:hover p:hover {
+// 	cursor: pointer;
+// 	color: red;
+// }
