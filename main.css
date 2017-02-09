@@ -698,6 +698,10 @@ body {
     .contact-data .data-frame .d-left {
       margin-right: 1.6rem; }
 
+.on-hover:hover {
+  cursor: pointer;
+  color: #79c674; }
+
 .main-footer {
   width: 140rem;
   height: 10.1rem;

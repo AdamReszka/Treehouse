@@ -730,7 +730,12 @@ body {
 		}
 	}
 }
-
+.on-hover {
+	&:hover {
+		cursor: pointer;
+		color: $green;
+	}
+}
 .main-footer {
 	width: $cont;
 	height: 10.1rem;
