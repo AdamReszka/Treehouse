@@ -731,9 +731,14 @@ body {
 	}
 }
 .on-hover {
+	.hover-green {
+		color: #fff;
+	}
 	&:hover {
+		.hover-green {
 		cursor: pointer;
 		color: $green;
+		}
 	}
 }
 .main-footer {

@@ -698,7 +698,9 @@ body {
     .contact-data .data-frame .d-left {
       margin-right: 1.6rem; }
 
-.on-hover:hover {
+.on-hover .hover-green {
+  color: #fff; }
+.on-hover:hover .hover-green {
   cursor: pointer;
   color: #79c674; }
 
