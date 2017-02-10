@@ -1,7 +1,7 @@
 $(document).ready(initAll);
 
 function initAll() {
-	$(".title-anchor").on('click', function(event) {
+	$("a").on('click', function(event) {
 		event.preventDefault();
 	})
 }

@@ -142,7 +142,8 @@ body {
     height: 13rem;
     margin-top: 10.6rem;
     letter-spacing: -0.3rem;
-    line-height: 7rem; }
+    line-height: 7rem;
+    font-weight: 600; }
   .title-cds .main-sub-title {
     color: #fff;
     font-family: "Roboto Slab", serif;
@@ -179,6 +180,7 @@ body {
   text-transform: uppercase;
   color: #777777;
   font-size: 1.8rem;
+  font-weight: 600;
   padding: 0.5rem 0 0 0.4rem; }
 
 .prof-serv {
@@ -194,6 +196,7 @@ body {
     text-transform: uppercase;
     color: #000;
     font-size: 4rem;
+    font-weight: 600;
     letter-spacing: -0.2rem; }
   .prof-serv .prof-sub-title {
     font-family: "Roboto Slab", serif;
@@ -268,6 +271,7 @@ body {
       text-transform: uppercase;
       color: #fff;
       font-size: 4rem;
+      font-weight: 600;
       line-height: 5.2rem; }
       .just-relax .just-baner .jb-title span {
         color: #79c674; }
@@ -332,6 +336,7 @@ body {
       color: #000;
       text-transform: uppercase;
       font-size: 4rem;
+      font-weight: 600;
       letter-spacing: -0.2rem; }
     .latest-pro .pro-title .pt-desc {
       color: #777777;
@@ -346,6 +351,7 @@ body {
     .latest-pro .pro-desc .pd-header {
       text-transform: uppercase;
       font-size: 1.75rem;
+      font-weight: 600;
       margin: 0.8rem 0 0 0; }
     .latest-pro .pro-desc .pd-desc {
       color: #777777;
@@ -369,7 +375,8 @@ body {
         .latest-pro .pro-desc .pd-point .pd-point-desc .pd-pd-title {
           font-size: 1.75rem;
           letter-spacing: -0.02rem;
-          margin-top: 1.8rem; }
+          margin-top: 1.8rem;
+          font-weight: 600; }
         .latest-pro .pro-desc .pd-point .pd-point-desc .pd-pd-sub {
           font-family: "Roboto Slab", serif;
           color: #777777;
@@ -389,6 +396,7 @@ body {
       color: #79c674;
       text-transform: uppercase;
       font-size: 1.6rem;
+      font-weight: 600;
       letter-spacing: -0.02rem;
       display: block;
       margin-top: 2.2rem;
@@ -424,6 +432,7 @@ body {
     .culture-val .cult-header .cult-title {
       text-transform: uppercase;
       font-size: 4rem;
+      font-weight: 600;
       letter-spacing: -0.18rem;
       margin-top: 3.4rem; }
     .culture-val .cult-header .cult-sub {
@@ -456,6 +465,7 @@ body {
         text-transform: uppercase;
         color: #000;
         font-size: 1.7rem;
+        font-weight: 600;
         letter-spacing: 0.02rem; }
       .culture-val .cult-desc .c-content .cc-desc {
         display: flex;
@@ -487,6 +497,7 @@ body {
     .our-awe .awesome-header .awesome-title {
       text-transform: uppercase;
       font-size: 4rem;
+      font-weight: 600;
       letter-spacing: -0.18rem;
       margin-top: 3.5rem; }
     .our-awe .awesome-header .awesome-sub {
@@ -582,6 +593,7 @@ body {
     text-transform: uppercase;
     color: #fff;
     font-size: 4rem;
+    font-weight: 600;
     margin-top: 6.4rem;
     letter-spacing: -0.18rem; }
   .ready-to .contact-button {
@@ -597,7 +609,8 @@ body {
     color: #fff; }
     .ready-to .contact-button .contact-us {
       text-transform: uppercase;
-      font-size: 1.8rem; }
+      font-size: 1.8rem;
+      font-weight: 600; }
     .ready-to .contact-button:hover {
       background-color: #fff;
       color: #79c674; }
@@ -644,6 +657,7 @@ body {
         text-transform: uppercase;
         color: #fff;
         font-size: 1.8rem;
+        font-weight: 600;
         letter-spacing: -0.02rem;
         margin-top: 2.7rem;
         margin-bottom: 2.6rem; }
