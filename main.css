@@ -725,6 +725,23 @@ body {
   display: flex;
   align-items: center;
   justify-content: center; }
+  .main-footer .socials {
+    display: flex;
+    flex-direction: row; }
+    .main-footer .socials .s-item {
+      width: 4rem;
+      height: 4rem;
+      background-color: #222222;
+      border-radius: 50%;
+      margin: 0.5rem; }
+    .main-footer .socials .s-tweet:hover {
+      background-color: #00aced; }
+    .main-footer .socials .s-faceb:hover {
+      background-color: #3b5998; }
+    .main-footer .socials .s-pinter:hover {
+      background-color: #cb2028; }
+    .main-footer .socials .s-gplus:hover {
+      background-color: #da2713; }
 
 .d-right {
   margin-left: 3rem; }

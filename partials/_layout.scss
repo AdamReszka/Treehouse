@@ -760,7 +760,35 @@ body {
 	background-color: #fff;
 	@include centering;
 	.socials {
-
+		display: flex;
+		flex-direction: row;
+		.s-item {
+			width: 4rem;
+			height: 4rem;
+			background-color: $footblack;
+			border-radius: 50%;
+			margin: 0.5rem;
+		}
+		.s-tweet {
+			&:hover {
+				background-color: $tweeter;
+			}
+		}
+		.s-faceb {
+			&:hover {
+				background-color: $facebook;
+			}
+		}
+		.s-pinter {
+			&:hover {
+				background-color: $pinterest;
+			}
+		}
+		.s-gplus {
+			&:hover {
+				background-color: $gplus;
+			}
+		}
 	}
 }
 .d-right {
