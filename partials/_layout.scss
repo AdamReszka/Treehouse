@@ -759,7 +759,10 @@ body {
 	height: 10.1rem;
 	background-color: #fff;
 	@include centering;
+	position: relative;
 	.socials {
+		position: relative;
+		z-index: 70;
 		display: flex;
 		flex-direction: row;
 		.s-item {
@@ -800,6 +803,16 @@ body {
 				background-color: $gplus;
 			}
 		}
+	}
+	.copyrights {
+		position: absolute;
+		z-index: 100;
+		margin: 0 0 1rem 0;
+		left: 23rem;
+		top: 4.4rem;
+		font-size: 1.4rem;
+		color: $footgrey;
+		font-weight: 400;
 	}
 }
 .d-right {

@@ -724,8 +724,11 @@ body {
   background-color: #fff;
   display: flex;
   align-items: center;
-  justify-content: center; }
+  justify-content: center;
+  position: relative; }
   .main-footer .socials {
+    position: relative;
+    z-index: 70;
     display: flex;
     flex-direction: row; }
     .main-footer .socials .s-item {
@@ -754,6 +757,15 @@ body {
       background-color: #cb2028; }
     .main-footer .socials .s-gplus:hover {
       background-color: #da2713; }
+  .main-footer .copyrights {
+    position: absolute;
+    z-index: 100;
+    margin: 0 0 1rem 0;
+    left: 23rem;
+    top: 4.4rem;
+    font-size: 1.4rem;
+    color: #555555;
+    font-weight: 400; }
 
 .d-right {
   margin-left: 3rem; }
