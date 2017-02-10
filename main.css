@@ -734,6 +734,18 @@ body {
       background-color: #222222;
       border-radius: 50%;
       margin: 0.5rem; }
+      .main-footer .socials .s-item .footer-link {
+        display: block;
+        width: 4rem;
+        height: 4rem;
+        margin: 0;
+        padding: 0;
+        outline: none;
+        text-decoration: none;
+        border-radius: 50%;
+        display: flex;
+        align-items: center;
+        justify-content: center; }
     .main-footer .socials .s-tweet:hover {
       background-color: #00aced; }
     .main-footer .socials .s-faceb:hover {

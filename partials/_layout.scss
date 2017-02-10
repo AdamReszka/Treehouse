@@ -768,6 +768,17 @@ body {
 			background-color: $footblack;
 			border-radius: 50%;
 			margin: 0.5rem;
+			.footer-link {
+				display: block;
+				width: 4rem;
+				height: 4rem;
+				margin: 0;
+				padding: 0;
+				outline: none;
+				text-decoration: none;
+				border-radius: 50%;
+				@include centering;
+							}
 		}
 		.s-tweet {
 			&:hover {
